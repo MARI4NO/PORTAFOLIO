@@ -1,0 +1,74 @@
+* {
+  /* todos los elementos
+  
+  selectores
+  # -> ID
+  . -> CLASE
+  div h1 -> elementos h1 dentro de un div
+  div, h1 -> 2 tipos de elementos
+  COLOR -> hexa , rgb o nombre
+  unidades de medida px ,em,rem %
+  
+    viewport -> define el area visible de la pagina web
+    
+
+  */
+}
+
+form {
+  align-items: center;
+  text-align: center;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  margin-left: 50px;
+}
+
+.miinput {
+  border-radius: 10px;
+  border: 1px solid;
+  font-style: "Roboto", "sans-serif";
+  height: 20px;
+  padding-left: 10px;
+}
+.miinput2 {
+  margin-left: 20px;
+  font-style: normal;
+  border: none;
+  border-bottom: #106ba0 solid;
+  height: 25px;
+  padding-left: 5px;
+}
+.enviar {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #106ba0;
+  display: inline-block;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 15px 40px !important;
+  text-transform: uppercase;
+  width: fit-content;
+  text-align: center;
+}
+.enviarinput {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+h2 {
+  color: #106ba0;
+  text-align: center;
+}
+
+.clase {
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+}
+/* margin border padding content */
