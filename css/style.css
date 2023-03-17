@@ -15,6 +15,10 @@
   */
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 form {
   align-items: center;
   text-align: center;
@@ -22,9 +26,26 @@ form {
 body {
   font-family: "Roboto", sans-serif;
 }
-p {
-  margin-left: 50px;
+
+.contando-cosas{
+  font-family:'Montserrat', sans-serif;
+  text-align: justify ;
+  
 }
+
+.iconoss{
+  height: auto;
+  width: 150px;
+}
+.contando-cosas span {
+  color: gray;
+  text-align: justify ;
+}
+
+.info-principal{
+  font-family:'Montserrat', sans-serif;
+}
+
 
 .miinput {
   border-radius: 10px;
@@ -62,13 +83,56 @@ p {
   position: absolute;
   z-index: -1;
 }
-h2 {
-  color: #106ba0;
-  text-align: center;
+
+.miform textarea{
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 60px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.clase {
-  font-family: "Courier New", Courier, monospace;
-  color: blue;
+.miform button{
+  align-items: center;
+  width: 100%;
+  background-color: grey;
+  margin-left: 15px;
+  padding: 10px;
+  letter-spacing: 1.4px;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;}
+
+
+.miform input , textarea {
+  margin-top: 30px;
+  outline: none;
+  padding: 10px;
+  letter-spacing: 1.4px;
+  color: grey;
+  border-bottom-color: grey;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  display:inline-flex ;
+  place-content: center;
+  font-family: 'Montserrat', sans-serif ;
+  margin: 15px;
+  width:100%;
+}
+
+
+footer{
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    background: #191919;
+    height: 150px;
 }
 /* margin border padding content */
