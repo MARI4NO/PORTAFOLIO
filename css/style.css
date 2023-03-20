@@ -155,14 +155,47 @@ body {
   width: 35px;
 }
 
+.barra{
+  width: 350px;
+  margin-bottom: 16px;
+  height: 24px;
+  border-radius: 15px;
+  background-color: grey;
+  ;
+}
+
+.progreso{
+  width: var(--w);
+  margin-bottom: 16px;
+  height: 24px;
+  border-radius: 15px;
+  background-color:#106ba0;
+  animation: Aumentar 5s ease;
+  color: white;
+  font-family: 'Montserrat', sans-serif ;
+}
+.progreso p{
+  padding-left: 40%;
+}
+
+.idiomas:active .progreso{
+  animation: Aumentar 5s ease;
+}
+@keyframes Aumentar{
+  0%{width: 0%;}
+  100%{width: var(--w);}
+}
+
 footer{
+  font-family: 'Montserrat', sans-serif ;
     margin-top: 150px;
     vertical-align: middle;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
-    color: white;
+    color: grey;
+  letter-spacing: 1.5px;
     background: #191919;
     height: 150px;
 }
