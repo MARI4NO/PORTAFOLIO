@@ -43,6 +43,13 @@ header ul li a:hover{
   scroll-margin-top: 70px;
 }
 
+.secciones h1{
+  font-size: 4rem;
+
+}
+.secciones h2{
+  font-size: 3rem;
+}
 
 html{
   scroll-behavior:smooth;
@@ -159,9 +166,9 @@ body {
 }
 
 .barra{
-  width: 350px;
+  width: 100%;
   margin-bottom: 16px;
-  height: 24px;
+  height: 4px;
   border-radius: 15px;
   background-color: grey;
   ;
@@ -170,16 +177,14 @@ body {
 .progreso{
   width: var(--w);
   margin-bottom: 16px;
-  height: 24px;
+  height: 4px;
   border-radius: 15px;
   background-color:#106ba0;
   animation: Aumentar 5s ease;
   color: white;
   font-family: 'Montserrat', sans-serif ;
 }
-.progreso p{
-  padding-left: 40%;
-}
+
 
 .idiomas:active .progreso{
   animation: Aumentar 5s ease;
@@ -190,7 +195,8 @@ body {
 }
 
 footer{
-  font-family: 'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif ;
+    width: 100%;
     margin-top: 150px;
     vertical-align: middle;
     align-items: center;
@@ -198,8 +204,66 @@ footer{
     justify-content: center;
     display: flex;
     color: grey;
-  letter-spacing: 1.5px;
+    letter-spacing: 1.5px;
     background: #191919;
     height: 150px;
 }
+
+
+/*  -------  skills  ------- */
+
+.barra-skill{
+  width: 100%;
+  margin-bottom: 16px;
+  height: 4px;
+  border-radius: 15px;
+  background-color: grey;
+  ;
+}
+
+.progreso-skill{
+  width: var(--w);
+  height: 4px;
+  border-radius: 15px;
+  background-color:var(--c);
+  animation: Aumentar 5s ease;
+  color:white;
+  font-family: 'Montserrat', sans-serif ;
+}
+.progreso-skill p{
+  padding-left: 40%;
+}
+
+
+.skill-icono{
+  width: 35px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.tarjeta{
+  margin: 0px;
+  margin-left: 0px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta h5{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  display: flex;
+}
+
+.letracarta{
+  font-family: 'Homemade Apple', cursive;
+  color: grey;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+
 /* margin border padding content */
