@@ -1,2 +1,2 @@
-# PRACTICANDO
-Proyecto de practica
+# PORTAFOLIO
+Repositorio para demostrar quien soy
